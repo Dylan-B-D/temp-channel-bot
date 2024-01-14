@@ -4,9 +4,11 @@ A simple Discord bot with various functionalities including temporary channels a
 
 ## Features
 
-- **Temp Channels**: Create temporary channels where messages get automatically deleted after a specified time.
-- **Clear Command**: Manually clear all messages in a temporary channel.
-- **Set Clear Time**: Adjust the auto-deletion time for messages in a temporary channel.
+- **!settempchannel**: Create temporary channels where messages get automatically deleted after a specified time.
+- **!clear**: Manually delete all messages in a temporary channel.
+- **!setcleartime [minutes]**: Adjust the auto-deletion time for messages in a temporary channel.
+- **!info**: View temporary channels in server, and the clear time for the channels.
+- **!removetempchannel**: Removes a temp channel from being a temp channel.
 
 ## Installation
 
